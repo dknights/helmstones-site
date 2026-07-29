@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Independent Brighton watches, inspired by the coast."
+      data-meta-description
+    >
+    <meta name="theme-color" content="#0b2037">
+    <title>Helmstones — Brighton watches</title>
+    <link rel="icon" type="image/png" href="assets/helmstones-mark.png">
+    <link rel="preload" as="image" href="assets/horizon-main.jpg">
+    <link rel="stylesheet" href="styles.css?v=4">
+    <script>document.documentElement.classList.add("js");</script>
+    <script src="app.js?v=4" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="announcement" data-announcement>
+      <p>
+        <span data-content="announcement.text"></span>
+        <a data-content="announcement.link-label" data-href="announcement.link-url"></a>
+      </p>
+    </div>
+
+    <header class="site-header" data-site-header>
+      <a class="brand" href="#top" aria-label="Helmstones home">
+        <img
+          class="brand__mark"
+          src="assets/helmstones-mark-transparent.png"
+          alt=""
+          width="42"
+          height="42"
+        >
+        <span class="brand__name" data-content="site.brand"></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        data-menu-toggle
+      >
+        <span></span>
+        <span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary" data-site-nav>
+        <a href="#collection" data-content="navigation.collection"></a>
+        <a href="#story" data-content="navigation.story"></a>
+        <a href="#details" data-content="navigation.details"></a>
+        <a class="button button--small button--light" href="#contact" data-content="navigation.cta"></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--light" data-content="hero.eyebrow"></p>
+          <h1 id="hero-title" data-content="hero.title"></h1>
+          <p class="hero__lede" data-content="hero.body"></p>
+
+          <div class="hero__actions">
+            <a
+              class="button button--coral"
+              data-content="hero.primary-label"
+              data-href="hero.primary-url"
+            ></a>
+            <a
+              class="text-link text-link--light"
+              data-content="hero.secondary-label"
+              data-href="hero.secondary-url"
+            ></a>
+          </div>
+
+          <div class="hero__price" aria-label="Collection price">
+            <span data-content="hero.price-overline"></span>
+            <strong data-content="hero.price"></strong>
+            <small data-content="hero.price-note"></small>
+          </div>
+        </div>
+
+        <div class="hero__visual" data-hero-visual>
+          <div class="hero__image-wrap">
+            <img
+              class="hero__image"
+              src="assets/horizon-main.jpg"
+              alt=""
+              width="752"
+              height="754"
+              data-hero-image
+            >
+            <div class="hero__image-shade"></div>
+            <div class="hero__model">
+              <span data-hero-count></span>
+              <div>
+                <small data-hero-model></small>
+                <strong data-hero-name></strong>
+              </div>
+            </div>
+            <p class="hero__location" data-content="hero.location"></p>
+          </div>
+          <div class="hero__selector" role="tablist" aria-label="Choose featured watch" data-hero-selector></div>
+        </div>
+
+        <a class="scroll-cue" href="#collection-intro" aria-label="Scroll to the collection">
+          <span></span>
+          <small data-content="hero.scroll-label"></small>
+        </a>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track" data-marquee-track></div>
+      </div>
+
+      <section class="collection-intro section" id="collection-intro">
+        <div class="section__number">01</div>
+        <div class="collection-intro__copy" data-reveal>
+          <p class="eyebrow" data-content="collection.eyebrow"></p>
+          <h2 data-content="collection.title"></h2>
+        </div>
+        <div class="collection-intro__aside" data-reveal>
+          <p data-content="collection.body"></p>
+          <div class="collection-intro__rule">
+            <span data-content="collection.price-label"></span>
+            <strong data-content="collection.price"></strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="watch-collection" id="collection" aria-label="Watch collection">
+        <div data-watch-list></div>
+      </section>
+
+      <section class="story section section--dark" id="story">
+        <div class="story__media" data-story-gallery data-reveal></div>
+
+        <div class="story__copy" data-reveal>
+          <p class="eyebrow eyebrow--light" data-content="story.eyebrow"></p>
+          <h2 data-content="story.title"></h2>
+          <p class="story__lead" data-content="story.body-one"></p>
+          <p data-content="story.body-two"></p>
+          <blockquote>
+            <p data-content="story.quote"></p>
+            <cite data-content="story.quote-credit"></cite>
+          </blockquote>
+          <a
+            class="text-link text-link--light"
+            data-content="story.cta-label"
+            data-href="story.cta-url"
+          ></a>
+        </div>
+      </section>
+
+      <section class="craft section" id="details">
+        <div class="craft__heading" data-reveal>
+          <div>
+            <p class="eyebrow" data-content="craft.eyebrow"></p>
+            <h2 data-content="craft.title"></h2>
+          </div>
+          <p data-content="craft.body"></p>
+        </div>
+
+        <div class="craft__grid" data-craft-grid></div>
+      </section>
+
+      <section class="assurance" aria-label="Collection assurances">
+        <div class="assurance__item" data-reveal>
+          <span>01</span>
+          <strong data-content="assurance.item-one-title"></strong>
+          <p data-content="assurance.item-one-body"></p>
+        </div>
+        <div class="assurance__item" data-reveal>
+          <span>02</span>
+          <strong data-content="assurance.item-two-title"></strong>
+          <p data-content="assurance.item-two-body"></p>
+        </div>
+        <div class="assurance__item" data-reveal>
+          <span>03</span>
+          <strong data-content="assurance.item-three-title"></strong>
+          <p data-content="assurance.item-three-body"></p>
+        </div>
+      </section>
+
+      <section class="faq section">
+        <div class="faq__heading" data-reveal>
+          <p class="eyebrow" data-content="faq.eyebrow"></p>
+          <h2 data-content="faq.title"></h2>
+          <p data-content="faq.body"></p>
+        </div>
+        <div class="faq__list" data-faq-list data-reveal></div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__inner" data-reveal>
+          <p class="eyebrow eyebrow--light" data-content="contact.eyebrow"></p>
+          <h2 data-content="contact.title"></h2>
+          <p data-content="contact.body"></p>
+          <a
+            class="button button--ink"
+            data-content="contact.cta-label"
+            data-href="contact.cta-url"
+          ></a>
+          <small data-content="contact.note"></small>
+        </div>
+        <img
+          class="contact__mark"
+          src="assets/helmstones-mark-transparent.png"
+          alt=""
+          width="420"
+          height="420"
+          loading="lazy"
+        >
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__brand">
+        <img src="assets/helmstones-mark-transparent.png" alt="" width="54" height="54">
+        <span data-content="site.brand"></span>
+      </div>
+      <p data-content="footer.tagline"></p>
+      <div class="site-footer__meta">
+        <span data-content="footer.copyright"></span>
+        <a data-content="footer.email-label" data-href="footer.email-url"></a>
+        <a href="#top" data-content="footer.back-to-top"></a>
+      </div>
+    </footer>
+
+    <dialog class="image-dialog" data-image-dialog>
+      <button type="button" aria-label="Close image" data-dialog-close>Close</button>
+      <img src="assets/horizon-main.jpg" alt="" width="1200" height="1200" data-dialog-image>
+      <p data-dialog-caption></p>
+    </dialog>
+
+    <div class="content-error" role="alert" hidden data-content-error>
+      The editable content could not be loaded. Open this folder through a local web server; see README.md.
+    </div>
+
+    <noscript>
+      <p class="noscript">This site needs JavaScript to load its editable Markdown content.</p>
+    </noscript>
+  </body>
+</html>
