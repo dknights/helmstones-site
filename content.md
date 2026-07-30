@@ -83,7 +83,7 @@ Image paths and link destinations can also be changed here.
 - **Price note:** Two-year warranty included
 - **Main image:** assets/sunset-main-v2.jpg
 - **Main image alt:** The Helmstones Sunset watch beside Brighton beach at sunset
-- **Detail image:** assets/sunset-detail-v3.jpg
+- **Detail image:** assets/sunset-detail.jpg
 - **Detail image alt:** Angled view of the Helmstones Sunset watch
 - **Accent:** #e45a2f
 - **Accent soft:** #f4ded3
