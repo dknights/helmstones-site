@@ -55,7 +55,7 @@ Image paths and link destinations can also be changed here.
 - **Description:** A crisp white dial meets deep Channel blue at the line that defines our city. The Horizon pairs calm geometry with the character of a mechanical movement.
 - **Price:** £285
 - **Price note:** Two-year warranty included
-- **Main image:** assets/horizon-main.jpg
+- **Main image:** assets/horizon-main-v2.jpg
 - **Main image alt:** The Helmstones Horizon watch on Brighton seafront
 - **Detail image:** assets/horizon-detail.jpg
 - **Detail image alt:** Angled view of the Helmstones Horizon watch
@@ -81,9 +81,9 @@ Image paths and link destinations can also be changed here.
 - **Description:** Burnt orange gives way to ocean blue as the sun drops beyond the water. The Sunset captures that last bright moment in a slim, easy-wearing case.
 - **Price:** £285
 - **Price note:** Two-year warranty included
-- **Main image:** assets/sunset-main.jpg
+- **Main image:** assets/sunset-main-v2.jpg
 - **Main image alt:** The Helmstones Sunset watch beside Brighton beach at sunset
-- **Detail image:** assets/sunset-detail.jpg
+- **Detail image:** assets/sunset-detail-v3.jpg
 - **Detail image alt:** Angled view of the Helmstones Sunset watch
 - **Accent:** #e45a2f
 - **Accent soft:** #f4ded3
