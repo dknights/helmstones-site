@@ -25,7 +25,7 @@ Image paths and link destinations can also be changed here.
 
 ## Hero
 - **Eyebrow:** BRIGHTON, ENGLAND · INDEPENDENT WATCHES
-- **Title:** Handmade in brighton.
+- **Title:** Handmade in Brighton.
 - **Body:** Three characterful watches shaped by Brighton’s horizon, colour and independent spirit. Designed for everyday life on and off the coast.
 - **Primary label:** Explore the three
 - **Primary URL:** #collection
