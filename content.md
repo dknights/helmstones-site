@@ -9,7 +9,7 @@ Image paths and link destinations can also be changed here.
 
 ## Site
 - **Brand:** HELMSTONES
-- **Meta title:** Helmstones — Brighton watches, made for the coast
+- **Meta title:** Helmstones — Brighton watches
 - **Meta description:** Three distinctive Brighton-inspired watches from independent microwatch brand Helmstones. Horizon, Sunset and Pride — each £285.
 
 ## Navigation
@@ -25,7 +25,7 @@ Image paths and link destinations can also be changed here.
 
 ## Hero
 - **Eyebrow:** BRIGHTON, ENGLAND · INDEPENDENT WATCHES
-- **Title:** Time, made by the sea.
+- **Title:** Handmade in brighton.
 - **Body:** Three characterful watches shaped by Brighton’s horizon, colour and independent spirit. Designed for everyday life on and off the coast.
 - **Primary label:** Explore the three
 - **Primary URL:** #collection
